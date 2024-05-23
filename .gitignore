@@ -1,0 +1,11 @@
+node_modules
+src/wp-content/uploads
+!src/wp-content/plugins
+.env.sample
+docker-compose.yml
+Dockerfile
+gulpfile.js
+package.json
+./package-lock.json
+# src/wp-content/plugins
+# npx tailwindcss -i ./tailwind.css -o ./style.css --watch

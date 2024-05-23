@@ -1,0 +1,1 @@
+const shin=0;

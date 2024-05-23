@@ -1,0 +1,147 @@
+/*
+Button background color
+*/
+@mixin button-bg($bg) {
+  background-color: $bg;
+  &:hover {
+    background-color: darken($bg, 8%);
+    transition: $transition;
+  }
+  &:active {
+    background-color: darken($bg, 25%);
+  }
+}
+
+/*
+String Replace
+*/
+// @function str-replace($string, $search, $replace: "") {
+//     $index: str-index($string, $search);
+//     @if $index {
+//         @return str-slice($string, 1, $index - 1)+$replace+str-replace(str-slice($string, $index + str-length($search)), $search, $replace);
+//     }
+//     @return $string;
+// }
+
+/*
+Font Face
+*/
+@mixin font-face($name, $path, $weight: null, $style: null, $exts: eot woff2 woff ttf svg) {
+  $src: null;
+  $extmods: (
+    eot: "?",
+    svg: "#" + str-replace($name, " ", "_"),
+  );
+  $formats: (
+    otf: "opentype",
+    ttf: "truetype",
+  );
+  @each $ext in $exts {
+    $extmod: if(map-has-key($extmods, $ext), $ext + map-get($extmods, $ext), $ext);
+    $format: if(map-has-key($formats, $ext), map-get($formats, $ext), $ext);
+    $src: append($src, url(quote($path + "." + $extmod)) format(quote($format)), comma);
+  }
+  @font-face {
+    font-family: quote($name);
+    font-style: $style;
+    font-weight: $weight;
+    src: $src;
+    font-display: swap; /* or block, swap, fallback, optional */
+  }
+}
+
+/*
+Cut text
+*/
+@mixin limit-row($row) {
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: $row;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+@mixin limit-line {
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+/*
+flexbox
+*/
+@mixin flex($x-justify: center, $y-align: center) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: $x-justify;
+  align-items: $y-align;
+}
+// Transition
+@mixin transition($what: all, $time: 0.2s, $how: ease-in-out) {
+  -webkit-transition: $what $time $how;
+  -moz-transition: $what $time $how;
+  -ms-transition: $what $time $how;
+  -o-transition: $what $time $how;
+  transition: $what $time $how;
+}
+
+// Transform
+@mixin transform($transforms) {
+  -moz-transform: $transforms;
+  -o-transform: $transforms;
+  -ms-transform: $transforms;
+  -webkit-transform: $transforms;
+  transform: $transforms;
+}
+// rotate
+@mixin rotate($deg) {
+  @include transform(rotate(#{$deg}deg));
+}
+
+// scale
+@mixin scale($scale) {
+  @include transform(scale($scale));
+}
+// translate
+@mixin translate($x, $y) {
+  @include transform(translate($x, $y));
+}
+// skew
+@mixin skew($x, $y) {
+  @include transform(skew(#{$x}deg, #{$y}deg));
+}
+//transform origin
+@mixin transform-origin($origin) {
+  moz-transform-origin: $origin;
+  -o-transform-origin: $origin;
+  -ms-transform-origin: $origin;
+  -webkit-transform-origin: $origin;
+  transform-origin: $origin;
+}
+/*=== MEDIA QUERY ===*/
+@mixin mobile-xs {
+  @media (min-width: 400px) {
+    @content;
+  }
+}
+@mixin mobile {
+  @media (min-width: 480px) {
+    @content;
+  }
+}
+@mixin tablet {
+  @media (min-width: 768px) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: 992px) {
+    @content;
+  }
+}
+@mixin large-desktop {
+  @media (min-width: 1200px) {
+    @content;
+  }
+}

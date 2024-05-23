@@ -1,0 +1,33 @@
+{
+    "default": {
+        "title": "Default",
+        "description": "",
+        "version": "1.2",
+        "category": "",
+        "demo_url": "//crafti.axiomthemes.com/"
+    },
+    "woodworking": {
+        "title": "Woodworking",
+        "version": "1.2",
+        "demo_url": "//woodworking.crafti.axiomthemes.com/",
+        "uploaded": "2022-12-27",
+        "updated": "2024-02-05",
+        "checked": "2024-03-05 06:11:25"
+    },
+    "bakery": {
+        "title": "Bakery",
+        "version": "1.2",
+        "demo_url": "//bakery.crafti.axiomthemes.com/",
+        "uploaded": "2022-12-27",
+        "updated": "2023-08-04",
+        "checked": "2024-02-27 08:26:02"
+    },
+    "textile": {
+        "title": "Textile",
+        "version": "1.2",
+        "demo_url": "//textile.crafti.axiomthemes.com/",
+        "uploaded": "2022-12-27",
+        "updated": "2023-10-13",
+        "checked": "2024-02-27 09:27:30"
+    }
+}

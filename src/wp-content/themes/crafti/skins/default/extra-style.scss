@@ -1,0 +1,73 @@
+@import "../../css/_mixins.scss";
+@import "../../css/_theme-vars.scss";
+@import "css/_skin-vars.scss";
+
+.post_item_404 .post_content .all-svg {
+	display: none;
+}
+
+.scroll_to_top_style_default {
+	width: 2.8em;
+	height: 2.8em;
+	line-height: 2.8em;
+	&:before {
+		top: -2px;
+	}
+}
+.trx_addons_scroll_to_top {
+	right: 1em;
+	&.show {
+		bottom: 1em;
+	}
+}
+
+.sc_skills_counter .sc_skills_total {
+	font-weight: 700;
+}
+
+.sc_price_simple .sc_price_item_description,
+.sc_price_simple .sc_price_item_details {
+	font-size: 1rem;
+	color: var(--theme-color-text);
+	font-family: inherit !important;
+}
+
+.sc_icons_number {
+	.sc_icons_item_title {
+		font-size: 1.4em;
+	}
+	.sc_icons_item_number {
+		font-weight: 700;
+		opacity: .05;
+	}
+}
+
+.elementor-toggle .elementor-tab-title .elementor-toggle-title {
+	font-weight: 700;
+}
+
+@media #{$media_xxl} {}
+@media #{$media_xl} {}
+@media #{$media_lg} {
+	.scroll_to_top_style_default {
+		width: 1.8em;
+		height: 1.8em;
+		line-height: 1.8em;
+		&:before {
+			font-size: 9px;
+		}
+	}
+	.trx_addons_scroll_to_top {
+		right: 0.5em;
+		&.show {
+			bottom: 0.5em;
+		}
+	}
+}
+@media #{$media_md} {
+	.sc_icons_number .sc_icons_item_title {
+		font-size: 1.2em;
+	}
+}
+@media #{$media_sm} {}
+@media #{$media_xs} {}

@@ -1,0 +1,67 @@
+.post_item_404 .post_content .all-svg {
+  display: none;
+}
+
+.scroll_to_top_style_default {
+  width: 2.8em;
+  height: 2.8em;
+  line-height: 2.8em;
+}
+.scroll_to_top_style_default:before {
+  top: -2px;
+}
+
+.trx_addons_scroll_to_top {
+  right: 1em;
+}
+.trx_addons_scroll_to_top.show {
+  bottom: 1em;
+}
+
+.sc_skills_counter .sc_skills_total {
+  font-weight: 700;
+}
+
+.sc_price_simple .sc_price_item_description,
+.sc_price_simple .sc_price_item_details {
+  font-size: 1rem;
+  color: var(--theme-color-text);
+  font-family: inherit !important;
+}
+
+.sc_icons_number .sc_icons_item_title {
+  font-size: 1.4em;
+}
+.sc_icons_number .sc_icons_item_number {
+  font-weight: 700;
+  opacity: .05;
+}
+
+.elementor-toggle .elementor-tab-title .elementor-toggle-title {
+  font-weight: 700;
+}
+
+@media (max-width: 1279px) {
+  .scroll_to_top_style_default {
+    width: 1.8em;
+    height: 1.8em;
+    line-height: 1.8em;
+  }
+  .scroll_to_top_style_default:before {
+    font-size: 9px;
+  }
+
+  .trx_addons_scroll_to_top {
+    right: 0.5em;
+  }
+  .trx_addons_scroll_to_top.show {
+    bottom: 0.5em;
+  }
+}
+@media (max-width: 1023px) {
+  .sc_icons_number .sc_icons_item_title {
+    font-size: 1.2em;
+  }
+}
+
+/*# sourceMappingURL=extra-style.css.map */

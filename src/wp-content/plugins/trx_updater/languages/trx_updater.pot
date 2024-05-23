@@ -1,0 +1,319 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ThemeREX Updater\n"
+"POT-Creation-Date: 2021-09-14 15:43+0300\n"
+"PO-Revision-Date: 2015-10-06 14:20+0300\n"
+"Last-Translator: \n"
+"Language-Team: ThemeREX\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.3\n"
+"X-Poedit-KeywordsList: __;gettext;gettext_noop;_e;_n;_n_noop;_x;esc_attr__;"
+"esc_attr_e;esc_html__;esc_html_e\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: core/options.php:43 core/options.php:56 core/plugin.php:58
+#: core/plugin.php:71
+msgid "Something went wrong."
+msgstr ""
+
+#: core/options.php:101 core/options.php:102 core/options.php:154
+#: core/plugin.php:155 core/update/manager.php:105
+msgid "ThemeREX Updater"
+msgstr ""
+
+#: core/options.php:161
+msgid "Theme purchase key"
+msgstr ""
+
+#: core/options.php:165
+msgid ""
+"Specify the purchase key of current (active) theme to enable updates for "
+"this theme and theme-specific plugins via admin menu 'Dashboard - Updates'."
+msgstr ""
+
+#: core/options.php:167
+msgid ""
+"You don't need to enter the purchase code if current theme is previously "
+"activated."
+msgstr ""
+
+#: core/options.php:174
+msgid "Create backups"
+msgstr ""
+
+#: core/options.php:176
+msgid "Allow backups"
+msgstr ""
+
+#: core/options.php:178
+msgid ""
+"Create backup for the previous version theme or plugin before update it."
+msgstr ""
+
+#: core/options.php:187 core/update/backups.php:83
+msgid "List of backups"
+msgstr ""
+
+#: core/options.php:196 core/update/backups.php:107
+msgid "Plugins"
+msgstr ""
+
+#: core/options.php:196 core/update/backups.php:107
+msgid "Themes"
+msgstr ""
+
+#: core/options.php:204
+#, php-format
+msgid "v.%s"
+msgstr ""
+
+#: core/options.php:205
+#, php-format
+msgid "(the backup was created on %s)"
+msgstr ""
+
+#: core/options.php:212 core/update/backups.php:91
+#: core/update/backups.php:162
+msgid "Restore selected backups"
+msgstr ""
+
+#: core/options.php:213 core/update/backups.php:92
+#: core/update/backups.php:163
+msgid "Delete selected backups"
+msgstr ""
+
+#: core/options.php:216
+msgid ""
+"Mark the desired items and select the action: \"Restore\" - to restore "
+"saved versions of plugins and/or theme, \"Delete\" - to delete files with "
+"saved versions."
+msgstr ""
+
+#: core/options.php:224
+msgid "Save Changes"
+msgstr ""
+
+#: core/update/backups.php:87
+msgid ""
+"You have a previously created backups available. Check it and then click "
+"&#8220;Restore selected backups&#8221; to return to the previous version "
+"of the plugin or the theme. If you click &#8220;Delete selected "
+"backups&#8221; - checked backups will be deleted."
+msgstr ""
+
+#: core/update/backups.php:98 core/update/backups.php:157
+#: core/update/plugins.php:349 core/update/plugins.php:399
+msgid "Select All"
+msgstr ""
+
+#: core/update/backups.php:127 core/update/engine.php:282
+#: core/update/plugins.php:375 core/update/themes.php:333
+#, php-format
+msgid "Select %s"
+msgstr ""
+
+#: core/update/backups.php:140
+#, php-format
+msgid ""
+"You have version %1$s installed. Revert to %2$s from the backup archive."
+msgstr ""
+
+#: core/update/backups.php:310
+msgid "List of backups to delete is not specified!"
+msgstr ""
+
+#: core/update/backups.php:333 core/update/backups.php:434
+#, php-format
+msgid "\"%s\" is not found in the backups list!"
+msgstr ""
+
+#: core/update/backups.php:341
+#, php-format
+msgid "\"%s\" is deleted!"
+msgstr ""
+
+#: core/update/backups.php:349
+#, php-format
+msgid "Archive of \"%s\" is not found! List entry \"%s\" is deleted"
+msgstr ""
+
+#: core/update/backups.php:410
+msgid "List of backups to restore is not specified!"
+msgstr ""
+
+#: core/update/backups.php:448
+#, php-format
+msgid "\"%s\" is restored!"
+msgstr ""
+
+#: core/update/backups.php:456
+#, php-format
+msgid ""
+"Destination folder with \"%s\" is not found! Perhaps the plugin has been "
+"removed."
+msgstr ""
+
+#: core/update/backups.php:466
+#, php-format
+msgid "Archive of \"%s\" is not found! List entry is deleted"
+msgstr ""
+
+#: core/update/engine.php:235
+#, php-format
+msgid "%d Theme Core Update"
+msgstr ""
+
+#: core/update/engine.php:260
+msgid "Active theme components: Theme Core files"
+msgstr ""
+
+#: core/update/engine.php:264
+msgid ""
+"Active theme have a new core files available. Check it and then click "
+"&#8220;Update Theme Core&#8221;."
+msgstr ""
+
+#: core/update/engine.php:267 core/update/engine.php:301
+msgid "Update Theme Core"
+msgstr ""
+
+#: core/update/engine.php:292
+#, php-format
+msgid "You have theme core version %1$s installed. Update to %2$s."
+msgstr ""
+
+#: core/update/engine.php:367
+#, php-format
+msgid "Updating Theme Core \"%s\""
+msgstr ""
+
+#: core/update/manager.php:175
+msgid "Invalid server answer!"
+msgstr ""
+
+#: core/update/manager.php:176
+msgid "Attention! This operation is irreversible!"
+msgstr ""
+
+#: core/update/manager.php:177
+msgid "Selected items are successfully restored!"
+msgstr ""
+
+#: core/update/manager.php:178
+msgid "Some items are not restored!"
+msgstr ""
+
+#: core/update/manager.php:179
+msgid "Selected items are successfully deleted!"
+msgstr ""
+
+#: core/update/manager.php:180
+msgid "Some items are not deleted!"
+msgstr ""
+
+#: core/update/manager.php:181
+msgid "Selected items are successfully updated!"
+msgstr ""
+
+#: core/update/manager.php:182
+msgid "Some items are not updated!"
+msgstr ""
+
+#: core/update/manager.php:183
+msgid ""
+"Enter the purchase key from your theme to update theme-specific components!"
+msgstr ""
+
+#: core/update/manager.php:184
+msgid "No items are checked!"
+msgstr ""
+
+#: core/update/manager.php:185
+msgid "Are you sure you want to delete the checked backups?"
+msgstr ""
+
+#: core/update/manager.php:186
+msgid ""
+"Restore previously saved versions of plugins (themes) from the checked "
+"backups?"
+msgstr ""
+
+#: core/update/manager.php:187
+msgid ""
+"Attention! The page will reload in 5 seconds to update the list of "
+"available backups!"
+msgstr ""
+
+#: core/update/plugins.php:315
+#, php-format
+msgid "%d Plugin Update"
+msgstr ""
+
+#: core/update/plugins.php:338
+msgid "Active theme components: Plugins"
+msgstr ""
+
+#: core/update/plugins.php:341
+msgid ""
+"The following plugins have new versions available. Check the ones you want "
+"to update and then click &#8220;Update Plugins&#8221;."
+msgstr ""
+
+#: core/update/plugins.php:344 core/update/plugins.php:403
+msgid "Update Plugins"
+msgstr ""
+
+#: core/update/plugins.php:385 core/update/themes.php:343
+#, php-format
+msgid "You have version %1$s installed. Update to %2$s."
+msgstr ""
+
+#: core/update/themes.php:286
+#, php-format
+msgid "%d Theme Update"
+msgstr ""
+
+#: core/update/themes.php:311
+#, php-format
+msgid "Active theme: \"%s\""
+msgstr ""
+
+#: core/update/themes.php:315
+msgid ""
+"Active theme have new version available. Check it and then click &#8220;"
+"Update Theme&#8221;."
+msgstr ""
+
+#: core/update/themes.php:318 core/update/themes.php:355
+msgid "Update Theme"
+msgstr ""
+
+#: core/update/themes.php:410
+#, php-format
+msgid "Updating Theme \"%s\""
+msgstr ""
+
+#: includes/file.php:129
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Put contents to the file \"%s\" failed"
+msgstr ""
+
+#: includes/file.php:163
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Get contents from the file \"%s\" failed"
+msgstr ""
+
+#: includes/file.php:179
+#, php-format
+msgid ""
+"WP Filesystem is not initialized! Get rows from the file \"%s\" failed"
+msgstr ""

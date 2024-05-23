@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAWA,0BAAoB;EAGlB;+HACqG;IACpG,SAAS,EAAE,IAAI;;;EAIjB,4HAA6H;IAC5H,SAAS,EAAE,IAAI;;;EAKf,gGAA8D;IAC7D,SAAS,EAAE,IAAI;;;AASlB,yBAAoB;EAEnB;4HAC2H;IAC1H,SAAS,EAAE,IAAI;;;EAIf;mEAA8B;IAC7B,SAAS,EAAE,OAAO;;;EAMnB,gEAA2C;IAC1C,WAAW,EAAE,KAAK;;;AAMrB,yBAAoB;EAIlB;mEAA8B;IAC7B,SAAS,EAAE,OAAO",
+"sources": ["trx_addons-qw-extension-responsive.scss"],
+"names": [],
+"file": "trx_addons-qw-extension-responsive.css"
+}

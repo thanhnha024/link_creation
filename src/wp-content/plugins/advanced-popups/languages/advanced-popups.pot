@@ -1,0 +1,389 @@
+# Copyright (C) 2023 advanced-popups
+# This file is distributed under the same license as the advanced-popups package.
+msgid ""
+msgstr ""
+"Project-Id-Version: advanced-popups\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Code Supply Co. <hello@codesupply.co>\n"
+"Last-Translator: Code Supply Co. <hello@codesupply.co>\n"
+"Report-Msgid-Bugs-To: https://codesupply.co/contact/\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: admin/class-advanced-popups-admin.php:93
+msgid "Popup Settings"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:151, admin/class-advanced-popups-admin.php:299, admin/class-advanced-popups-admin.php:922
+msgid "General"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:152
+msgid "Display Rules"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:153
+msgid "Triggers"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:154
+msgid "Style"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:155
+msgid "Advanced"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:161
+msgid "Type"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:165
+msgid "Content Box"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:166
+msgid "Notification Box"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:167
+msgid "Notification Bar"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:173
+msgid "Location"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:177, admin/class-advanced-popups-admin.php:197
+msgid "Top"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:178
+msgid "Top Left"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:179
+msgid "Top Right"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:180, admin/class-advanced-popups-admin.php:198
+msgid "Bottom"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:181
+msgid "Bottom Left"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:182
+msgid "Bottom Right"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:183, admin/class-advanced-popups-admin.php:195
+msgid "Left"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:184, admin/class-advanced-popups-admin.php:196
+msgid "Right"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:185
+msgid "Center"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:191
+msgid "Preview Image"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:199, admin/class-advanced-popups-admin.php:432, includes/class-advanced-popups-rules.php:70
+msgid "None"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:205
+msgid "Notification Text"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:213
+msgid "Notification Button Label"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:221
+msgid "Notification Button Action"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:225
+msgid "Link"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:226
+msgid "Accept"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:232
+msgid "Notification Button Link"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:240
+msgid "Limit display"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:242
+msgid "Show the popup only [n] times."
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:251
+msgid "Limit display сache lifetime (days)"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:260
+msgid "Guests or Logged-in"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:266
+msgid "Show only to logged-in users"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:274
+msgid "Show Popup"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:277
+msgid "Entire Site"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:278
+msgid "Specific Pages"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:300, admin/class-advanced-popups-admin.php:923
+msgid "Posts Types"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:301, admin/class-advanced-popups-admin.php:924
+msgid "Taxonomies"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:358, admin/class-advanced-popups-admin.php:925
+msgid "Add another OR rule"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:361, admin/class-advanced-popups-admin.php:926
+msgid "Remove"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:371
+msgid "Add New Rule "
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:378
+msgid "Trigger Open Popup"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:381, admin/class-advanced-popups-admin.php:398, admin/class-advanced-popups-admin.php:433, admin/class-advanced-popups-admin.php:439
+msgid "Time Delay"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:382
+msgid "Page Viewed"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:383
+msgid "Page Read"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:384
+msgid "Exit Intent"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:385, admin/class-advanced-popups-admin.php:406, admin/class-advanced-popups-admin.php:434
+msgid "Scroll Position"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:386
+msgid "Accept Agreement"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:387
+msgid "Manual Launch"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:393
+msgid "It works for \"Notification Box\" and \"Notification Bar\". And if \"Notification Button Action\" is selected as \"Accept\", then the popup will be displayed until the user accepts the agreement."
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:401, admin/class-advanced-popups-admin.php:442
+msgid "Seconds"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:413, admin/class-advanced-popups-admin.php:454
+msgid "Px."
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:414, admin/class-advanced-popups-admin.php:455
+msgid "%"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:415, admin/class-advanced-popups-admin.php:456
+msgid "of screen"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:421
+msgid "CSS Selector"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:429
+msgid "Trigger Close Popup"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:447
+msgid "Offset Scroll Position"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:464
+msgid "Open Animation"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:468, admin/class-advanced-popups-admin.php:481
+msgid "Fade"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:469, admin/class-advanced-popups-admin.php:482
+msgid "Slide"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:470, admin/class-advanced-popups-admin.php:483
+msgid "Zoom"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:471, admin/class-advanced-popups-admin.php:484
+msgid "Slide and Fade"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:477
+msgid "Exit Animation"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:490
+msgid "Content Box Width"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:494, admin/class-advanced-popups-admin.php:504, admin/class-advanced-popups-admin.php:514
+msgid "px."
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:500
+msgid "Notification Box Width"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:510
+msgid "Notification Bar Width"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:520
+msgid "Light Close Button"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:528
+msgid "Display Overlay"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:538
+msgid "Mobile Disable"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:541
+msgid "Disable popup on mobile"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:546
+msgid "Disable Scrolling"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:549
+msgid "Disable scrolling on body"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:554
+msgid "Click Overlay to Close"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:557
+msgid "Checking this will cause popup to close when user clicks on overlay"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:562
+msgid "Press ESC to Close"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:565
+msgid "Checking this will cause popup to close when user presses ESC key"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:570
+msgid "Press F4 to Close"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:573
+msgid "Checking this will cause popup to close when user presses F4 key"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:927
+msgid "Find items..."
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:928
+msgid "The results could not be loaded."
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:929
+msgid "Loading more results..."
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:930
+msgid "Nothing not found"
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:931
+msgid "Searching..."
+msgstr ""
+
+#: admin/class-advanced-popups-admin.php:932
+msgid "Remove all items"
+msgstr ""
+
+#: includes/class-advanced-popups-rules.php:71
+msgid "Front Page"
+msgstr ""
+
+#: includes/class-advanced-popups-rules.php:72
+msgid "Home Page"
+msgstr ""
+
+#: includes/class-advanced-popups-rules.php:73
+msgid "Archive Page"
+msgstr ""
+
+#: includes/class-advanced-popups-rules.php:74
+msgid "Author Page"
+msgstr ""
+
+#: includes/class-advanced-popups-rules.php:75
+msgid "Search Result Page"
+msgstr ""
+
+#: includes/class-advanced-popups-rules.php:76
+msgid "404 Error Page"
+msgstr ""
+
+#: includes/class-advanced-popups-rules.php:77
+msgid "URL (slug)"
+msgstr ""
+
+#: includes/class-advanced-popups-rules.php:108
+msgid "Taxonomy of "
+msgstr ""

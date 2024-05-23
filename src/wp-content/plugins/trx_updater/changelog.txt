@@ -1,0 +1,153 @@
+Version 2.1.3:
+	* Calls to unlink() after unpacking the archive have been replaced by trx_updater_unlink(),
+	  which pauses for 1ms on a failed deletion attempt, then resets the state cache for the file
+	  being deleted and makes another deletion attempt.
+
+Version 2.1.2:
+	+ Fix for forced update of Booked plugin for versions 2.4.3 and younger is added, since the developer stopped supporting
+	  the plugin and its update site does not work. Now this plugin is supported by another developer and he has released
+	  a transitional version 2.4.4 to which it is suggested to update the plugin before switching to QuickCal
+
+Version 2.1.1:
+	* Condition for checking the type of the data in the 'backups_list' option is added.
+	  In some cases it is not an array, but a string 'Array'.
+
+Version 2.1.0:
+	+ Filters to prevent backup all or some addons from the plugin "ThemeREX Addons" are added.
+	* Fix for compatibility with PHP 8.2 is added.
+
+Version 2.0.0:
+	+ Сheck for incorrect value of the plugin name after its update is added. Some plugins return an array with plugin info
+	  instead of plugin slug.
+
+Version 1.9.9:
+	* Backup / Restore FSE-compatible theme components (folders 'templates', 'parts' and the file 'theme.json') is improved.
+
+Version 1.9.8:
+	* Backup / Restore FSE-compatible theme components (folders 'templates', 'parts' and the file 'theme.json') is improved.
+
+Version 1.9.7:
+	* Backup / Restore FSE-compatible theme components (folders 'templates', 'parts' and the file 'theme.json') is added.
+
+Version 1.9.6:
+	* Fixes for compatibility with 3-rd party plugins are added.
+
+Version 1.9.5:
+	* Set a flag to regenerate merged styles and scripts after the plugin 'trx_addons' or a current theme is updated
+
+Version 1.9.4:
+	* JS warning in the Customizer is fixed
+
+Version 1.9.3:
+	+ Check multiskin themes is improved.
+	+ Attention about a major update of the theme is added.
+
+Version 1.9.2:
+	+ Save and restore theme skins data are improved.
+
+Version 1.9.1:
+	+ Hooks before and after upgrade process are added.
+
+Version 1.9.0:
+	+ Upgrade for themes with renamed folder is added.
+
+Version 1.8.0:
+	* Support for updating theme-specific plugins for multisite is added.
+	  Attention! Our theme, which needs to be updated with plugins, must be activated on the main site!
+
+Version 1.7.0:
+	* Save/restore skins on theme upgrade via third-party plugins (for example, Envato Market) is added
+
+Version 1.6.0:
+	* Save/restore skins on theme upgrade is added
+
+Version 1.5.6:
+	* File rtl.css is added to the list with theme excludes.
+
+Version 1.5.5:
+	* Disable all other 'upgrade' buttons after upgrade process started.
+
+Version 1.5.4:
+	* Old versions of 'trx_addons' are excluded from redirect to the upgrade server.
+
+Version 1.5.3:
+	+ Upgrade theme's core files is improved.
+	+ Folders '.git', '.idea', '.vscode' is added to the 'exclude_folders',
+	  file '.gitignore' is added to the 'exclude_files'
+
+Version 1.5.2:
+	+ Upgrade theme's core files is improved.
+
+Version 1.5.1:
+	+ Upgrade theme's core files is improved.
+
+Version 1.5.0:
+	+ Upgrade theme's core files is added (only for compatible themes).
+
+Version 1.4.2:
+	+ Save / restore addons when updating a new version of the plugin "ThemeREX Addons" is implemented.
+
+Version 1.4.1:
+	+ Save / restore skins when updating multi-skin themes is implemented.
+
+Version 1.4.0:
+	* Small changes to improve theme updates
+
+Version 1.3.9:
+	+ Filters 'trx_updater_filter_get_theme_info' and 'trx_updater_filter_get_plugins_info' are added
+
+Version 1.3.8:
+	* Fix: Check for updates of the main theme when child theme is active 
+
+Version 1.3.7:
+	+ Detection the activation code for old themes is added 
+
+Version 1.3.6:
+	+ The filter 'trx_updater_filter_theme_purchase_key' to override the theme's purchase key is added 
+
+Version 1.3.5:
+	+ Validation of the purchase key is now domain-specific 
+	+ Checking for the possibility of updating the theme / plugin with the minimum allowed version is added
+
+Version 1.3.4:
+	* Compatibility with WordPress 5.3 is improved
+
+Version 1.3.3:
+	* Caching the server's response when theme version checking is improved
+
+Version 1.3.2:
+	* Auto activation plugins after update is added
+
+Version 1.3.1:
+	* Branch 'release' is added
+
+Version 1.3.0:
+	+ List of backups is added to the end of the page "Dashboard - Updates".
+	  User can check some backups in the list and restore its (revert theme or plugin to its previous version)
+	  or delete checked backups (to save disk space on the server)
+
+Version 1.2.0:
+	* Checking version of the current (active) theme is changed.
+	+ The ability to back up plugins (themes) before update and restore previously saved versions is added.
+
+Version 1.1.3:
+	* Checking version of installed plugins is changed.
+
+Version 1.1.2:
+	* Order of checking plugins is changed: instead check all installed plugins,
+	  only theme-required plugins (from TGMPA) are checked for updates.
+	+ On first installation theme-required plugins also available from the upgrade-servers
+	  instead pre-packaged archives.
+
+Version 1.1.1:
+	* Check if ThemeREX Updater is not in the TGMPA plugins list before insert it in the list.
+
+Version 1.1.0:
+	+ Separate classes for plugins and theme updates are added.
+	+ The plugin's options page in admin menu Appearance - ThemeREX Updater is now available.
+	+ Update manager run only if current theme is activated or the theme's purchase code is
+	  specified in the plugin's options page.
+
+Version 1.0.0:
+	+ First release. Main features: allow update theme-specific plugins from upgrade server
+	  if theme purchase key is specified.
