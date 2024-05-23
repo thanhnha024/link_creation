@@ -1,0 +1,31 @@
+version: "3.9"
+services:
+  wordpress:
+    container_name: ${PROJECT_ID}
+    image: wordpress:6.3
+    volumes:
+      - ./src/.htaccess:/var/www/html/.htaccess
+      - ./src/wp-content/themes:/var/www/html/wp-content/themes
+      - ./src/wp-content/plugins:/var/www/html/wp-content/plugins
+      - ./src/wp-content/uploads:/var/www/html/wp-content/uploads
+
+    environment:
+      WORDPRESS_DB_HOST: ${WORDPRESS_DB_HOST}
+      WORDPRESS_DB_NAME: ${WORDPRESS_DB_NAME}
+      WORDPRESS_DB_USER: ${WORDPRESS_DB_USER}
+      WORDPRESS_DB_PASSWORD: ${WORDPRESS_DB_PASSWORD}
+      WORDPRESS_TABLE_PREFIX: ${WORDPRESS_TABLE_PREFIX}
+      WORDPRESS_CONFIG_EXTRA: ${WORDPRESS_CONFIG_EXTRA}
+
+    command: ""
+
+    ports:
+      - ${PORT}:80
+    networks:
+      - webnet
+    restart: always
+
+networks:
+  webnet:
+    name: webnet
+    driver: bridge
